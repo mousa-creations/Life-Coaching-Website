@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Life Coaching | Single Blog</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mobile.css" />
+</head>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="/index.html">Life Coaching</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#i-services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog post content -->
+    <div class="container mt-4 b-post">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <article>
+                    <h2 class="title">Sample Blog Post Title</h2>
+                    <p class="text-muted">Posted on January 1, 2023 by John Doe</p>
+                    <img src="/images/kal-unsplash.jpg" class="img-fluid img-post mb-4" alt="Blog Post Image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec diam sed tortor commodo
+                        rhoncus.
+                        Vestibulum sit amet nisi id tellus sodales hendrerit. Suspendisse potenti.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec diam sed tortor commodo
+                        rhoncus.
+                        Vestibulum sit amet nisi id tellus sodales hendrerit. Suspendisse potenti.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec diam sed tortor commodo
+                        rhoncus.
+                        Vestibulum sit amet nisi id tellus sodales hendrerit. Suspendisse potenti.</p>
+                    <blockquote>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, quisquam, aut, eum, natus
+                        excepturi impedit ipsa rerum ratione id dolores ducimus minus eos quod veniam similique
+                        fugit illum error facilis!
+                    </blockquote>
+
+                    <p>Sed tempus elementum purus. Maecenas porta lobortis dui, vitae ornare lacus iaculis eu. Sed
+                        in tristique mauris. Sed vel nulla mi. Aliquam vulputate hendrerit fermentum. Nullam at
+                        ornare elit. Nulla ut commodo nulla. Nam bibendum feugiat enim nec lobortis. Etiam hendrerit
+                        blandit augue lacinia finibus.</p>
+                </article>
+
+                <!-- blog author -->
+                <div class="blog-author my-5">
+                    <div class="media-co">
+                        <div class="media-object">
+                            <a href="#"><img src="/images/test-1.png" class="img-fluid rounded-circle"
+                                    alt="about-author"></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Michael Van</h4>
+                            <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus
+                                purus augue vulputate voluptate neque, curabitur.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- blog comments -->
+                <div class="blog-comment mb-5">
+                    <h3>2 comments</h3>
+                    <div class="media-co">
+                        <div class="media-object">
+                            <img src="images/test-2.png" class="img-fluid rounded-circle" alt="blog-comment">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Sandar Srina</h4>
+                            <h5>18 May 2023</h5>
+                            <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus
+                                purus augue vulputate voluptate neque, curabitur.</p>
+                            <div class="media-co">
+                                <div class="media-object">
+                                    <img src="images/test-3.png" class="img-fluid rounded-circle" alt="blog-comment2">
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">George Ziko</h4>
+                                    <h5>14 May 2023</h5>
+                                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi
+                                        risus purus augue vulputate voluptate neque, curabitur.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comment Form -->
+                <div class="blog-comment-form">
+                    <h3>Leave a comment</h3>
+                    <form action="#" method="post" id="comment-form">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <input type="text" class="form-control" placeholder="Name" name="name" required="">
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <input type="email" class="form-control" placeholder="Email" name="email" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 mt-3">
+                            <textarea class="form-control" placeholder="Message" rows="5" name="message" required=""
+                                id="message"></textarea>
+                        </div>
+                        <div class="col-md-3 col-sm-3 mt-3">
+                            <input name="submit" type="submit" class="form-control btn" id="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Arrow Up -->
+    <a href="#" class="scroll-arrow">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <script src="/index.js"></script>
+</body>
+
+</html>
