@@ -23,7 +23,7 @@ Welcome to the Life Coaching Website! This website is designed for life coaches,
 
 ### Screenshot
 
-![Screenshot-1](https://i.imgur.com/ZEUWL9K.jpg)
+![Screenshot-1](https://i.imgur.com/JouT00z.jpg)
 ![Screenshot-2](https://i.imgur.com/Q9CQkXN.jpg)
 ![Screenshot-3](https://i.imgur.com/8lv2Bon.jpg)
 
